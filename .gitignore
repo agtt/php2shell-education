@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.bin
+
+# Official PHP source tree/tarball (published upstream, analysis only; can be deleted)
+src/
+
+# Raw runtime captures (exploit runs / gdb traces). Translated evidence
+# documents (logs/*.md) are tracked; raw *.log files are not.
+logs/*.log
+
+# Official PHP source tarball (published upstream, not needed in the repo)
+
+# Local proof files and raw runtime captures
+out/*
+!out/.gitkeep
+logs/*.resp
+logs/*.txt
+logs/*.log
+logs/*.bin
+*.env
